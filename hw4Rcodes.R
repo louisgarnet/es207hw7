@@ -1,3 +1,16 @@
+Some advices
+
+1. All the exercises were presented in a single file. It is recommended to create a file for each exercise, because according to the blog: "write classes that do only one thing and have only one reason to change".
+2. It is recommended to indent the code to facilitate its reading.
+3. It should be evident where is the file path.
+4. It is recommended that the code be more ordered: A section for path definition, other for loading of libraries, other for the results section, etc.
+5. In the case of exercise 9 it is recommended to leave spaces between blocks of code dedicated to a specific function. It is also recommended to include texts to guide the reader.
+6. For function 10 it is recommended to include additional criteria to know if the address is correct, for example: the following texts in the address field are also errors: "address not known", "location approximate", "", and zip code less than 90000.
+7. Comments should be included in exercises 14 and 15 to facilitate their interpretation.
+8. Now of executing the code of exercises 14 and 15, some errors were generated.
+
+
+
 #9.How many site names in the CA air quality location dataset "Site Name" contain "San" or "Santa?".
 
 location = read.csv("location.csv", header = TRUE, na.strings = "") #requiring R to recognize that there is NAs
